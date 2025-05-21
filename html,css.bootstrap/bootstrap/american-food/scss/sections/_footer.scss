@@ -1,0 +1,148 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+
+.footer{
+
+	margin-top:10rem;
+	&-img{
+
+	// sm //
+@media (min-width:576px){
+	width:20rem;
+	height:5rem;
+	margin-top:5rem;
+	margin-bottom:1rem;
+}
+// md //
+@media (min-width:768px){
+	width:20rem;
+	height:5rem;
+	margin-top:5rem;
+	margin-bottom:1rem;
+}
+// lg //
+@media (min-width:992px){
+	width:20rem;
+	height:5rem;
+	margin-top:5rem;
+	margin-bottom:1rem;
+}
+// xl //
+@media (min-width:1200px){
+	width:20rem;
+	height:5rem;
+	margin-top:5rem;
+	margin-bottom:1rem;
+}
+// xx-l //
+@media (min-width:1400px){
+	width:20rem;
+	height:5rem;
+	margin-top:5rem;
+	margin-bottom:1rem;
+	margin-left:5rem;
+}
+	width:13rem;
+	height:2.5rem;
+	margin-top:5rem;
+	margin-bottom:1rem;
+	}
+	&-p{
+	color:$white;
+	text-transform: uppercase;
+	font-weight: 100;
+	max-width: 500px;
+	font-size: .8rem;
+	line-height:1.5rem;
+	}
+}
+.footer1{
+// sm //
+@media (min-width:576px){
+	margin-top : 2rem;
+}
+// md //
+@media (min-width:768px){
+	margin-top : 2rem;
+}
+// lg //
+@media (min-width:992px){
+	margin-top : 6rem;
+	font-size:1rem;
+}
+// xl //
+@media (min-width:1200px){
+	margin-top : 6rem;
+	font-size:1rem;
+}
+// xx-l //
+@media (min-width:1400px){
+	margin-top : 6rem;
+	font-size:1rem;
+}
+	margin-top : 1.5rem;
+font-size:.7rem;
+}
+
+.fa-solid{ 
+text-decoration:none;
+text-transform: uppercase;
+color:$white;
+
+	&-i{
+	
+margin-right:2rem !important;
+	margin-bottom:.9rem;
+	
+	}
+}
+
+.footcomp{
+
+// sm //
+@media (min-width:576px){
+	margin-top : 2rem;
+	
+}
+// md //
+@media (min-width:768px){
+	margin-top : 2rem;
+
+}
+// lg //
+@media (min-width:992px){
+	margin-top : 12rem;
+}
+// xl //
+@media (min-width:1200px){
+	margin-top : 12rem;
+}
+// xx-l //
+@media (min-width:1400px){
+	margin-top : 10.5rem;
+
+}
+margin-top : 1.5rem;	
+font-size:1rem;
+	&-brand{
+	
+		
+padding: 0.1rem .1rem 0.28rem .38rem;	
+	background-color:$white;
+
+		color:$black;
+		width: .5rem;
+		height: .5rem;
+	
+text-decoration:none;
+		
+		margin-left:.5rem;
+		border-radius: 50%;
+
+	&-i{
+	}
+  }
+}
+
+

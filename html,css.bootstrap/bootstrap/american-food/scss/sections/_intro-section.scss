@@ -1,0 +1,98 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+
+
+
+
+.b{
+  
+      &__line{
+        @include media-breakpoint-down(sm) {
+
+   margin-top:10rem;
+      font-size:.7rem;
+      
+     font-family: "Poppins", serif;
+      font-weight: 400;
+      font-style: italic;
+      text-transform: capitalize;
+  }
+      margin-top:20rem;
+      font-size:1.1rem;
+      
+     font-family: "Poppins", serif;
+      font-weight: 400;
+      font-style: italic;
+      text-transform: capitalize;
+      }
+      &__p{
+              @include media-breakpoint-down(sm){
+              font-size:4rem;
+              font-weight: 500;
+            
+             
+              }
+        font-size:7rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        text-align: left;
+        line-height: 1;
+         text-shadow: 2px 2px 4px white;
+        }
+        &__img{
+          @include media-breakpoint-down(sm){
+          transform: translateX(-10%);
+        transform: translateY(-20%);
+          }
+       
+        height:623px;
+        width:697px;
+       
+        transform: translateX(30%);
+        transform: translateY(20%);
+
+        }
+        &__price{
+         @include media-breakpoint-down(sm){
+         transform: translateY(-380%);
+           
+         }
+        padding-right:15rem;
+         transform: translateY(-70%);
+        
+
+        }
+
+      }
+
+
+
+
+
+
+
+
+
+      .dashed{
+@include media-breakpoint-down(sm) {
+  border-style: dashed;
+      border-width: 2px;
+      height: 25px;
+      width: 300px;
+      text-transform: capitalize;
+}
+      border-style: dashed;
+      border-width: 2px;
+      height: 30px;
+      width: 450px;
+      text-transform: capitalize;
+
+      }
+
+      .dashed{
+       @include media-breakpoint-down(sm) {
+      height:1.2rem;
+      width: 18rem;
+      }
+      }

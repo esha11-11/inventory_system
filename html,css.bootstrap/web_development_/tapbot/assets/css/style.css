@@ -1,0 +1,137 @@
+
+
+@font-face
+{
+	font-family: montserrat;
+	src: url(../fonts/montserrat-regular.otf);
+}
+nav
+{
+	margin-top: 40px;
+	margin-bottom: 37px;
+}
+.logo ul li
+{
+	float: left;
+	margin-right: 10px;
+}
+.logo ul li:last-child
+{
+	padding-top: 20px;
+}
+.nav_items
+{
+	padding-top: 20px;
+	text-align: right;
+}
+.slideshow
+{
+	position: relative;
+	margin-bottom: 20px;
+}
+.available
+{
+	position: absolute;
+	top: -30px;
+	right: -40px;
+}
+.product-bg
+{
+	background: url("../images/product_promo_bg.jpg");
+  	height: 180px;
+  	margin-bottom: 114px;
+}  
+.product-bg h2
+{
+	text-transform: uppercase;
+	font-family: montserrat;
+	font-weight: normal;
+	text-align: center;
+	color: #5b5a5b;
+	text-shadow: 1px 1px 1px #c8c8ca;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.producr-bg p 
+{
+	font-family: arial;
+	font-size: 14px;
+	text-align: center;
+	text-shadow: 1px 1px 1px #fff;
+}
+footer
+{
+	background-color: #222223;
+	height: 400px;
+	position: relative; 
+}
+.about, .blog, .help, .twitter
+{
+	position: absolute;
+	top: -60px;
+}
+.footer-col p
+{
+	font-family: arial;
+	font-size: 14px;
+	color: #5e775e;
+	margin-bottom: 10px;
+	width: 200px;
+	padding-left: 10px;
+	text-shadow: 1px 1px 1px #000;
+}
+.footer-col
+{
+	background: url('../images/company_promo_bg.png');
+	margin-top: 40px;
+}
+.footer-col h2
+{
+	padding-top: 105px;
+	color: #c1c1c2;
+	text-shadow: 1px 1px 1px #000;
+	text-align: center;
+	font-weight: normal;
+	font-family: montserrat;
+	text-transform: uppercase;
+}
+.footer-form img
+{
+	position: relative;
+	left: -50px;
+	top: -70px;
+}
+
+.footer-form ul li
+{
+	background-color: #dee2e6;
+
+
+}
+.textfields
+{
+	height: 30px;
+	width: 274px;
+	margin-left: 100px;
+	border-radius: 5px;
+	border-color: #939393;
+
+
+}
+ .footer-form ul li
+{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btns
+{
+	background-color: #b33c3d;
+	color: #fff;
+	padding: 10px;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+}

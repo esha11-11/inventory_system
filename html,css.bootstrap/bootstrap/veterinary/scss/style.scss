@@ -1,0 +1,19 @@
+
+@use 'custom';
+
+// IMPORT THE COMPONENTS
+@use 'components/buttons';
+@use 'components/animations';
+@use 'components/mixins';
+@use 'components/typography';
+
+// IMPORT THE SECTIONS
+@use 'sections/navbar';
+@use 'sections/intro-section';
+@use 'sections/lover-of-animals';
+@use 'sections/lover-of-animals-two';
+@use 'sections/rate';
+@use 'sections/recent-post';
+@use 'sections/footer';
+
+

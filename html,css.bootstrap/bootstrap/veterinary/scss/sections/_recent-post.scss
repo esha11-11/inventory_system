@@ -1,0 +1,31 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+
+.recent-post{
+&-card{
+border-width:.1rem;
+border-radius: 0rem;
+
+
+}
+
+	&--a{
+	color:$light-green;
+	text-decoration: none;
+	box-shadow: none;
+	}
+	margin-bottom:5rem;
+	:hover{
+
+	border:none;
+	
+
+	
+	}
+}
+ 
+.box-shadow:hover{
+	-webkit-box-shadow: 0 10px 20px rgba(72,78,85,.6);
+	box-shadow: 0 10px 20px rgba(72,78,85,.6);
+	}

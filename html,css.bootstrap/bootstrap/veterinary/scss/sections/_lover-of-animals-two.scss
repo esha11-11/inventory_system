@@ -1,0 +1,101 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+
+
+
+
+
+.yellow-two{
+@media (min-width:320px){
+    width: 50%; /* Adjust as needed */
+  height:50%; /* Adjust as needed */
+  transform: translateX( 105%) translateY(110%);
+
+}
+@media (min-width:350px){
+    width: 50%; /* Adjust as needed */
+  height:50%; /* Adjust as needed */
+ transform: translateX( 105%) translateY(110%);
+
+}
+
+@media (min-width:425px){
+    width: 50%; /* Adjust as needed */
+  height:50%; /* Adjust as needed */
+  transform: translateX( 105%) translateY(110%);
+
+
+}
+
+
+@media (min-width:576px){
+    width: 50%; /* Adjust as needed */
+  height:50%; /* Adjust as needed */
+   transform: translateX( 110%) translateY(110%);
+
+
+}
+// md //
+@media (min-width:740px){
+
+  background-color: $primary; /* Set yellow color */
+  width: 50%; /* Adjust as needed */
+  height: 50%; /* Adjust as needed */
+  top: 40px; /* Position it relative to the image */
+  right: 200px; /* Position it relative to the image */
+  z-index: -2; /* Place it behind the image */
+  
+}
+
+// md //
+@media (min-width:768px){
+
+  background-color: $primary; /* Set yellow color */
+  width: 50%; /* Adjust as needed */
+  height: 50%; /* Adjust as needed */
+  top: 20px; /* Position it relative to the image */
+  right: 90px; /* Position it relative to the image */
+  z-index: -2; /* Place it behind the image */
+  
+}
+
+
+// lg //
+@media (min-width:992px){
+  
+  background-color: $primary; /* Set yellow color */
+  width: 50%; /* Adjust as needed */
+  height: 50%; /* Adjust as needed */
+  top: 30px; /* Position it relative to the image */
+  right: 110px; /* Position it relative to the image */
+  z-index: -2; /* Place it behind the image */
+}
+
+// xl //
+@media (min-width:1200px){
+  
+ width: 50%; /* Adjust as needed */
+  height: 50%; /* Adjust as needed */
+  top: 50px; /* Position it relative to the image */
+  right: 130px; /* Position it relative to the image */
+  z-index: -2; /* Place it behind the image */
+}
+
+@media (min-width:1400px){
+  
+ width: 50%; /* Adjust as needed */
+  height: 50%; /* Adjust as needed */
+  top: 50px; /* Position it relative to the image */
+  right: 150px; /* Position it relative to the image */
+  z-index: -2; /* Place it behind the image */
+}
+  background-color: $primary; /* Set yellow color */
+ 
+  z-index: -2; /* Place it behind the image */
+}
+	
+
+
+
+

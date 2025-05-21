@@ -1,0 +1,137 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+
+.up-event{
+
+
+   &__h{
+   		@include media-breakpoint-down(sm){
+		margin-top:3.5rem;
+	}
+   		text-align: left; 
+   		font-size: 1rem;
+   		padding-left: 1.5rem;
+  		position: absolute;
+   		top:-2.5rem;
+
+   }
+   &__bh{
+   @include media-breakpoint-down(sm){
+		margin-top:4.5rem;
+	}
+  margin-top:3rem;
+   padding-bottom:1.5rem;
+   text-align: left; 
+   font-size: 2rem; 
+   color: #311e1a;
+   padding-left: 1.5rem;
+
+   }
+   &__p{
+   padding-left: 1.5rem;
+   text-align: left;
+   max-width: 675px; 
+   font-size: 1rem;
+   line-height: 1.2rem;
+   }
+   &__img{
+   @include media-breakpoint-down(sm){
+   height: 110px; 
+   width:240px;
+	}
+   height: 310px; 
+   width: 540px;
+   margin-bottom:2rem;
+   padding-left:2rem;
+  transform: translateX(10%);
+
+   }
+
+ }
+
+
+
+.carousel-indicators {
+@include media-breakpoint-down(sm) {
+   bottom: -30px;
+   left: 0px;
+}
+@include media-breakpoint-up(md) { bottom: -60px;
+   left: -210px;
+   }
+@include media-breakpoint-up(lg) { bottom: -60px;
+   left: -340px;
+   }
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   color:$black;
+   bottom: -80px;
+   left: -520px;
+  
+    transform: translateX(-1%);
+}
+
+.carousel-indicators span {
+  height: 10px;
+  width: 10px;
+  margin: 5px;
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 50%;
+  cursor: pointer;
+
+   background-color: #ffffff;
+    opacity: .4;
+}
+
+.carousel-indicators span.active {
+  background-color: transparent;
+}
+
+#slider {
+    /*height: 350px;
+    overflow: hidden;
+    width: 100%;*/
+}
+
+
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.carousel-indicators [data-bs-target] {
+
+
+    box-sizing: content-box;
+    
+    width: 10px; /* change width */
+    height: 10px; /* change height */
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+     border: 1px solid #000;
+    background-color: #dad9d5;
+    background-clip: padding-box;
+  
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+   border:transparent;
+    transition: opacity .6s ease;
+  
+   
+    border-radius: 100%; // /* add border-radius */
+
+}
+ .carousel-indicators button.active{
+ background-color: #ffbb40;
+ border:transparent;
+
+ }

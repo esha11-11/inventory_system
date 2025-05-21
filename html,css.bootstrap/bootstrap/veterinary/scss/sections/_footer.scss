@@ -1,0 +1,50 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+
+.footer {
+
+	padding: 2rem 0 2rem 0;
+	&-logo{
+	height:70px;
+	weigth:200px;
+	}
+	h5{
+	text-transform: capitalize;
+	}
+	li {
+		
+		a {
+			color: $white !important;
+			text-transform: capitalize;
+			font-weight: 200;
+			font-size:1.5rem;
+			text-decoration:none;	
+		}
+	}
+	.search{
+	color: $white;
+	
+	background-color:$rape-yellow !important;
+		input::-webkit-input-placeholder {
+        color: white;
+
+}
+
+input:-moz-placeholder {
+        color: white;
+}
+	&-i{
+	border-width:.1px;
+	border-color:$light-green !important;
+		border-radius: 0%;
+		font-size: 1rem;
+
+
+	}
+	}
+&-ifooter{
+	color:$white !important;
+	margin-left:.4rem;
+}
+}

@@ -1,0 +1,28 @@
+@use '../custom' as *;
+@use '../components/_mixins' as *;
+
+.table{
+		@include media-breakpoint-down(sm) {
+		display: none;
+	}
+&__dash{
+
+}
+	i{
+		color:$blue;
+	}
+	.inline{
+
+text-align:left;
+padding-left:4rem;
+
+} 
+
+	&__heading--bold{
+	
+	font-weight: 700;
+	
+
+}
+}
+

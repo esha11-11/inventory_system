@@ -1,0 +1,51 @@
+@use '../custom' as *;
+@use '../components/_mixins' as *;
+
+footer{
+	contact-box__icon {
+	margin-right:2.9rem;
+	background-color:#f0edf2;
+	  text-decoration: underline;
+	}
+	background-color:#f0edf2;
+	
+	img{
+		padding-botom: 5rem;
+		 text-align: justify;
+		 padding-right:2rem;
+	}
+	a{
+	color:#1062de !important;
+
+	
+	background-color:#f0edf2 !important;
+	  text-decoration: none;
+
+}
+p{
+	margin-left:.5rem;
+}
+h6{
+	padding-top: .6rem;
+}
+
+
+}
+.footer{
+
+	&__style{
+
+	font-weight:400;
+	text-size:.1rem;
+	margin-right:2.9rem;
+	color:$darkgrey;
+}
+	}
+
+.dropdown{
+
+
+	margin-top: 1.5rem;
+	color:$darkgrey;
+	margin-left:.5rem;
+}

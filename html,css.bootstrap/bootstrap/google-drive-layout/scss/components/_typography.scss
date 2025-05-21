@@ -1,0 +1,101 @@
+@use '../custom' as *;
+@use '../components/_mixins' as *;
+
+.display-2{
+margin-top: 10rem; 
+	margin-bottom: 1rem;
+	
+	 font-family: "Poppins", sans-serif;
+	 &--intro{
+	 display: inline-block;
+	 font-weight:500;
+	 font-family: 'poppins',sans-serif;
+
+	 }
+	 &--description{
+	 font-size: 1.5rem;
+	 display: block;
+	 margin-top:1.2rem;
+	 text-transform: none;
+	 color:$darkgrey;
+	 margin-bottom: 3rem;
+
+	 }
+
+
+	 }
+	 p{
+
+	 margin-top:2rem;
+	 
+	 }
+
+.heading-line::before{
+	content:"";
+	width: 100%;
+	height: 0.1rem;
+	display: block;
+	margin: 0 auto;
+	background-color: $grey;
+}
+
+
+.heading-line-size::after{
+	content:"";
+	width: 100%;
+	height: 0.01rem;
+	display: block;
+	margin: 0 auto;
+	background-color: #e0ded7;
+}
+
+//Border Right
+.display-3{
+	font-family: "Poppins", sans-serif;
+	text-align-last: justify;
+
+
+	&--title{
+	font-family: "Poppins", sans-serif;
+	
+	font-weight: 400;
+	display: inline-block;
+
+&-style{
+	color:$darkgrey;
+	font-weight: 200;
+	&-color{
+	color:$black;
+	}
+}
+
+}
+}
+
+	
+p{
+
+color:$darkgrey;
+span{
+color:$black;
+	}
+	}
+
+.table{
+
+		&__heading{
+	font-size: 2rem;
+    text-align-top: justify;
+	color:$darkgrey;
+	 margin-bottom: 2rem;
+	 font-weight: 200;
+	 span{
+	 font-weigh: 50;
+	 font-size: 1rem;
+	 }
+
+  } 
+
+}
+
+

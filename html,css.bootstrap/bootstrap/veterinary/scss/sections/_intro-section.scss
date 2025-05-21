@@ -1,0 +1,20 @@
+
+
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.intro-section {
+	background-color:$rape-yellow;
+	padding: 10rem 0 0 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+.dogimg{
+
+
+	height:500px;;
+	weigth:250px;
+	margin-bottom:5rem;
+}

@@ -1,0 +1,43 @@
+
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.display-2 {
+	margin-bottom: 1rem;
+	text-transform: capitalize;
+	font-family: 'Poppins', sans-serif;
+
+	&--intro {
+			display: inline-block;
+			font-weight: 500;
+			font-family: 'Poppins', sans-serif;
+
+	}
+	&--description {
+		font-size: 1.5rem;
+		display: block;
+		margin-top: 1.2rem;
+		text-transform: none;
+	}
+}
+
+.white{
+	&__p{
+	font-size:1.2rem;
+	text-align:center;
+	text-transform: capitalize;
+	line-height:2rem;
+	font-size: 1.5rem;
+		display: block;
+		margin-top: 1.2rem;
+		font:$white;
+	}
+	
+
+		
+
+	
+}
+
+
+

@@ -1,0 +1,45 @@
+
+
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.menu {
+
+
+background-color: transparent;
+	li { 
+
+	letter-spacing: .5px;
+	margin-top:5rem;
+
+		padding: 0 0.7rem;
+		a {
+			color: $black !important;
+			text-transform: capitalize;
+			font-weight: 600;
+			font-family: "Gloria Hallelujah",cursive;
+			font-weight: 400;
+			font-style: normal;
+
+				
+		}
+	}
+	&__img{
+	width: 36px;
+	height: 27px;
+	margin-top:1.5rem;
+	}
+	&__h{
+	font-size:1rem;
+	padding-left:.5rem;
+	padding-top:2rem;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	margin-right:1.1rem;
+	}
+	&__logo{
+
+	position: absolute;
+	}
+}
+

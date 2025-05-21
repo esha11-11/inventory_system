@@ -1,0 +1,46 @@
+@use '../custom' as *;
+@use '../components/_mixins' as *;
+
+
+
+.btn-style{
+	@include media-breakpoint-down(sm){
+	display:none;
+	}
+	a{
+	color:$blue;
+	}
+	span{	
+	pudding: 0.938rem 4.375rem 0.938rem 1.2rem;
+
+	}
+	&:hover{
+	span{
+	background-color: $darkgrey;
+		color:$darkgrey;		
+	}
+		a{
+		color:$darkgrey;
+		}
+	}
+&__tablebtn{
+@include media-breakpoint-down(sm){
+	display:none;
+	}
+	position: center;
+	 margin-top: 10rem;
+}
+}
+
+
+
+
+
+.btn-col{
+	@include media-breakpoint-down(sm){
+	display:none;
+	}
+ &:hover{
+ color:$darkgrey;
+ }
+}

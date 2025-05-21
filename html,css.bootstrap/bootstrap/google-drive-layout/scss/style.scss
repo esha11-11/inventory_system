@@ -1,0 +1,16 @@
+@use 'custom';
+
+
+// IMPORT THE COMPONENTS
+@use 'components/buttons';
+@use 'components/typography';
+
+// IMPORT THE SECTIONS
+@use 'sections/navbar';
+@use 'sections/intro-sections';
+@use 'sections/services';
+@use 'sections/teams';
+@use 'sections/companies';
+@use 'sections/google-drive';
+@use 'sections/table';
+@use 'sections/footer';

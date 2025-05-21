@@ -1,0 +1,17 @@
+@use '../custom' as *;
+@use '../components/_mixins' as *;
+
+.service{
+	position: relative;
+	padding: 1rem 0;
+	&__content{
+	padding: 1rem;
+	margin-top: 5rem;
+	text-size: 10rem;
+	
+	}
+
+}
+
+
+

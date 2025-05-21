@@ -1,0 +1,77 @@
+
+
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.btn-rounded {
+	@include media-breakpoint-down(sm) {
+		display: none;
+	}
+
+margin-top:2rem;
+     
+	position: relative;
+	padding: 0.9375rem 1.5rem 0.9375rem 1.5rem;
+	font-weight: 700;
+	
+	border: 0.1rem solid rgba($light-green, 0.6);
+	background-color: $light-green;
+	color:$white;
+	border-radius: 4%;
+	&__two{
+
+	position: relative;
+	padding: 0.9375rem 1.5rem 0.9375rem 1.5rem;
+	font-weight: 700;
+	margin-left:2rem;
+	border: 0.2rem solid rgba($white, 10);
+	background-color: $rape-yellow;
+	color:$white;
+	border-radius: 4%;
+	}
+&--three{
+	 align-items: left;
+position: relative;
+	padding: 0.9375rem 1.5rem 0.9375rem 1.5rem;
+	font-weight: 700;
+	margin-left:2rem;
+	border: 0.2rem solid rgba($white, 10);
+	background-color: $rape-yellow;
+	color:$white;
+	border-radius: 4%;
+
+	}
+	&:hover {
+		background-color:$primary;
+		color: $white;
+			}
+}
+
+.rounded-pill{
+@include media-breakpoint-down(sm) {
+		position: relative;
+
+	font-weight: 700;
+	
+	border: 0.1rem solid rgba($light-green, 0.6);
+	background-color: $light-green;
+	color:$white;
+	border-radius: 4%;
+	}
+
+
+     
+	position: relative;
+
+	font-weight: 700;
+	
+	border: 0.1rem solid rgba($light-green, 0.6);
+	background-color: $light-green;
+	color:$white;
+	border-radius: 4%;
+
+
+	margin-top:-1rem;
+	padding: 0.5rem 1rem 0.5rem 1rem;
+	margin-bottom:3rem;
+} 

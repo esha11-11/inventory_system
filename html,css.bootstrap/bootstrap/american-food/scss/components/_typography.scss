@@ -1,0 +1,42 @@
+
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+
+
+
+
+
+
+.pburger{
+	&__choose{
+	font-size:1.2rem;
+	text-align:center;
+	text-transform: capitalize;
+	line-height:2rem;
+	color:$heading;
+	}
+	&__h{
+
+	
+	padding-left:.5rem;
+	padding-top:2rem;
+	letter-spacing: 1px;
+	
+	margin-right:1.1rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 2rem;
+	margin-top: 2rem;
+	color: #421b0c;
+	font-family: "Lora", serif;
+  	font-optical-sizing: auto;
+
+	}
+	
+}
+
+.border-right {
+	border-right: 0.1rem solid $gray-300;
+	height: 100%;
+}

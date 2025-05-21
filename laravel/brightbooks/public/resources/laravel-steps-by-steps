@@ -1,0 +1,50 @@
+
+
+STEP-1 
+
+INSTALLATION OF LARAVEL 9.
+	* composer create-project laravel/laravel brightbooks 9.* -vvv
+	* cd brightbooks
+	* php artisan serve
+
+CREATING VIRTUAL HOST
+	127.0.0.1 	brightbooks.test
+	
+	<VirtualHost 127.0.0.1:80>
+	    DocumentRoot "D:/xampp/htdocs/new-batch-7-8-mwf/brightbooks/public"
+	    ServerName brightbooks.test
+	</VirtualHost>
+------------------------------------------------------------------
+STEP-2
+	CREATING MIGRATION.
+	* php artisan make:migration create_author_table
+	
+	RUNNING MIGRATION.
+	* php artisan migrate
+
+	ROLLBACK MIGRATION.
+	* php artisan migrate:rollback
+
+	ROLLBACK MIGRATION + CREATE MIGRATION + SEEDING RECORD.
+	* php artisan migrate:refresh --seed
+------------------------------------------------------------------
+	STEP-3 
+	WORKING WITH SEEDER
+	- CREATE SOME MODELS
+	* php artisan make:model Author
+
+	- CREATE SOME FACTORIES.
+	* php artisan make:factory AuthorFactory
+
+	- CALL SEEDER CLASSESS.
+	* composer dump-autoload
+	  DatabaseSeeder
+      \App\Models\Author::factory(50)->create();
+
+      - RUNNING SEEDER
+      * php artisan db:seed
+  
+  - REFRESH MIGRATION
+  * php artisan migrate:refresh // delete table and create table .
+  * php artisan migrate:refresh --seed // delete table and create table plus seed your record.
+------------------------------------------------------------------------------

@@ -1,0 +1,685 @@
+
+
+body{
+	background-color: #080516;
+	font-family: arial;
+	font-size: 14px;
+	color: #ccc;
+	letter-spacing: 0.2px;
+
+
+
+}
+
+#page-wrap{
+	
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#header{
+	
+	height: 180px;
+	margin-bottom: 10px;
+}
+
+.logo
+{	padding-top: 72px;
+	margin-bottom: 10px;
+
+}
+
+.top-nav ul
+{   }
+.top-nav ul li
+{  
+  float: left;
+  margin-right: 20px;
+ }
+.top-nav ul li a
+{ color: #fff; 
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 18px;
+
+
+  }
+.top-nav ul li a:hover
+{ 
+
+color: #ba1b07
+}
+
+#main-content{
+	
+	margin-bottom: 365px;
+}
+#left-content{
+	
+	width: 662px;
+	float: left;
+}
+
+.page-info h1
+
+{
+	color: #d71400;
+	font-size: 50px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+.page-info p
+{
+	font-size: 20px;
+	margin-bottom: 10px;
+
+
+}
+.posters ul li
+{
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 10px;
+
+
+}
+
+
+
+#sidebar{
+	
+	width: 310px;
+	float: right;
+}
+
+
+.sneak-preview, .ads
+{
+	margin-bottom: 10px;
+
+
+
+}
+
+.ads-1
+{
+	width: 150px;
+	float: left;
+}
+
+.ads-2
+{
+	width: 150px;
+	float: right;
+}
+
+
+
+
+#footer {
+	
+	
+
+}
+#footer-col-one
+{
+	
+	width: 315px;
+	float: left;
+	margin-right: 28px;
+}
+#footer-col-two
+{
+	
+	width: 315px;
+	float: left;
+	
+}
+
+.footer-info h2
+{
+	color: #fff;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.footer-info h2 span
+{
+	color: #d71400;
+}
+
+.footer-info h3
+{ color: #d71400;
+	font-size: 22px;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+}
+
+
+.footer-info p.datetime
+{
+	color: #8c8c8a;
+	margin-bottom: 10px;
+}
+.footer-info p
+{
+
+	color: #fff;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+.footer-info p a
+{
+	color: #d71400;
+	text-decoration: none;
+}
+
+
+
+#footer-col-three
+{
+	
+	width: 315px;
+	float: right;
+	
+}
+
+.footer-nav ul li 
+{
+	margin-bottom: 10px;
+}
+.footer-nav ul li a
+{ color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.footer-nav ul li a:hover
+{color: #d71400;
+	
+
+}
+
+.copyrights{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: #8c8c8a;
+}
+
+
+/*****************************************
+SINGLE CONTRIBUTION PAGE STYLE.
+*****************************************/
+.single-contribution{
+
+}
+
+.contribution-thumb
+{
+	background-color: #fff;
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+
+
+.contribution-details
+{
+	width: 490px;
+	float: right;
+}
+.contribution-details h2{
+	color: #d71400;
+	font-size: 28px;
+	margin-bottom: 10px;
+}
+.contribution-details ul li  {
+	margin-bottom: 10px;
+	color: #fff;
+	font-size: 16px;
+}
+.contribution-details ul li span 
+ { display: inline-block;
+ 	width: 70px;
+ 	vertical-align: top;
+
+ }
+ .contribution-details ul li span.about 
+ {
+ 	width: 400px;
+ }
+
+
+/***************************************************
+       contact us page style
+  *********************************************/
+
+.forms h2
+{
+	color: #d71400;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.forms ul li
+{
+	margin-bottom: 10px;
+}
+
+.textfields, .textarea
+{
+	width: 587px;
+	height: 30px;
+	border: none;
+	outline: none;
+	padding-left: 10px;
+	border-radius: 5px;
+}
+
+.textarea {
+	height: 120px;
+	resize: none;
+}
+
+.btns
+{
+	background-color: #d71400;
+	color: #fff;
+	padding: 10px;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+}
+
+
+
+/*********************************************
+	SUBSCRIPTION PAGE STYLE.
+*********************************************/
+
+.subscription-forms ul li
+{
+	color: #fff;
+	font-size: 18px;
+}
+.subscription-forms ul li:nth-child(13),.banner-form ul li:first-child
+{
+	border-bottom: 1px solid #474652;
+}
+
+.subscription-forms ul li:nth-child(14)
+{
+	font-size: 14px;
+}
+
+
+
+
+/***************************************************
+             test    page
+  *********************************************/
+
+.span h2{
+	font-size: 30px; 
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+.span h3{font-size: 20px;
+	margin-bottom: 5px;
+	color: #fff;
+	margin-bottom: 20px;
+
+
+}
+ .span p
+{
+	color: #8c8c8a;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+
+
+.test-details
+{
+	width: 490px;
+	float: left;
+}
+.test-details h2{
+	color: #fff;
+	font-size: 28px;
+	margin-bottom: 10px;
+	
+}
+
+.span h3{
+	font-size: 22px;
+}
+.test-details ul li  {
+	margin-bottom: 10px;
+	color: #8c8c8a;
+	font-size: 16px;
+}
+.test-details ul li span 
+ { display: inline-block;
+ 	width: 180px;
+ text-decoration: inline
+
+ }
+ 
+
+
+/************************************************
+             BANNER PAGE STYLE
+***********************************************/
+
+
+.main-banner
+{
+	margin-bottom: 50px;
+}          
+
+.main-banner h2
+{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 22px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.main-banner p
+{
+
+color:#fff;
+font-size: 14px;
+
+}
+
+.main-banner p a
+{
+	color: #d71400;
+	text-decoration: none;
+}
+
+
+
+.main-banner p a:hover
+{
+	text-decoration: underline;
+}
+
+
+
+
+.banner
+{
+	position: relative;
+}
+
+.social-icons
+{
+	position: absolute;
+	bottom: 0;
+	left: -70px;
+}
+
+
+
+
+.banner-form h2
+{
+	color: #fff;
+}
+/********************************************
+      HOME PAGE STYLE.
+ *********************************************/
+ 
+/********************************************/
+.home
+{
+}
+.home-poster
+{
+	width: 315px;
+	float: left;
+}
+.home-poster h2
+{
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #d71400;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.home-poster p, .mini-poster ul li p
+{
+	font-size: 14px;
+	color: #fff;
+	line-height: 20px;
+}
+
+.home-poster h3
+{
+	color: #d71400;
+	text-decoration: underline;
+	font-size: 22px;
+}
+.mini-poster
+{
+	width: 315px;
+	float: right;
+}
+
+.mini-poster ul li
+{
+	margin-bottom: 10px;
+}
+
+/************************************************************************************
+          blog-style-page
+************************************************************************************/
+.main-con
+{
+	background-color: #fff;
+	border-bottom: 5px solid #ae1f25;
+}
+
+#left-content-two
+{
+	width: 164px;
+	margin-left: 20px;
+	float: left;
+	padding-top: 33px;
+
+
+}
+.left-con-d ul h1
+{   text-transform: capitalize;
+     font-size: 30px;
+     color: #ae1d22;  
+     padding-top: 115px;  
+}
+
+
+ul li .span
+{
+	
+	color: #d71400; 
+	font-size: 25px;
+	text-transform: capitalize;
+}
+
+.left-con-d ul li
+{
+	font-size: 15px;
+	color: #000000;
+	padding-top: 10px;
+	padding-bottom: 20px;
+
+}
+.left-con-d ul li a
+{
+	color: #ff332f;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+.left-con-a ul li a:hover
+{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#middle-content
+{
+	width: 547px;
+	float: left;
+	margin-left: 25px;
+	margin-right: 25px; 
+}
+.middle-con h1, h3
+{
+   color: #d81300;
+   text-transform: uppercase;
+   font-size: 30px;
+}
+
+
+.middle-con-d p
+{
+	font-size: 30px;
+	color: #979797;
+	padding-bottom: 10px;
+	color: #717171; 
+	font-style: italic;
+font-family: Bell-MT;
+}
+.middle-con-d ul li p
+{
+	color: #000;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+
+.middle-con-d ul li 
+{
+	padding-bottom: 20px;
+}
+
+.middle-con-a ul li a 
+{
+	color: #ff3531;
+	text-decoration: none;
+}
+
+.middle-con-a ul li a:hover
+{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
+#right-content-two
+{
+	width: 196px;
+	float: right;
+	margin-right: 20px;
+
+}
+
+.right-con h1, h2
+{
+    font-size: 20px;
+    color: #af1d27;
+    text-transform: uppercase; 
+    padding-bottom: 3px;
+    padding-top: 33px;
+}
+
+
+.right-con h2
+{
+	
+}
+
+.right-con-d ul li 
+
+{
+	text-transform: uppercase;
+	color: #000;
+	font-size: 10px;
+	padding-top: 5px;
+
+}
+
+.right-con-d ul li a
+{
+	text-decoration: none;
+	color: #af1d27;
+}
+
+.right-con-d ul li a:hover
+{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.right-con-d ul  img
+{
+	padding-top: 10px;
+	padding-bottom: 10px
+
+}
+.footer-info ul li  a
+{
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+}
+.footer-info ul li   img
+{   
+	margin-right: 5px;
+
+}
+.footer-a-two ul li a span
+{ 	
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px; 
+
+	
+}
+.footer-a-two ul h1
+{
+   font-size: 20px;
+   padding-bottom: 10px;
+   padding-top: 15px;
+   color: #fefefe;
+}
+.footer-a-two ul li a
+{   
+	color: #fe3231;
+	font-size: 15px;
+}
+ 
+.footer-a-two ul li  img
+{
+	margin-left: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

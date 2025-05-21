@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>	Home | portfolio</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="assets/js/jquery-3.6.1.min.js"></script>
+</head>
+<body>
+	<nav>
+		<div class="container"> <img class="menu-icon" src="assets/images/menu-icon.png" alt="click to expand menu" /> 
+			<ul class="nav-list">
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">WORK</a></li>
+				<li><a href="#">ABOUT</a></li>
+				<li><a href="#">CONTANT</a></li>
+			</ul>
+			<ul class="social-list">
+				<li><a href=""><img src="assets/images/youtube.png" alt="youtube"></a></li>
+				<li><a href=""><img src="assets/images/twitter.png" alt="twitter"></a></li>
+				<li><a href=""><img src="assets/images/facebook.png" alt="facebook"></a></li>
+			</ul>
+
+		</div>
+	</nav>
+
+	<header class="container">
+	  <h1>My Design Portfolio</h1>
+	  <h3>DESIGN SOLUTIONS FOR YOUR BUSINESS</h3>
+	</header>
+
+	<section class="feature">
+		<ul class="feature-list container">
+			<li class="feature-web">
+				<a href="#">
+					<img class="feature-icon" src="assets/images/web.png" alt="web Design" />
+					<h3 class="feature-title">WEB DESIGN</h3>
+				</a>
+				
+			</li>
+			<li class="feature-graphic">
+				<a href="#">
+					<img class="feature-icon" src="assets/images/graphic.png" alt="Graphic Design" />
+					<h3 class="feature-title">GRAPHIC DESIGN</h3>
+				</a>
+				
+			</li>
+			<li class="feature-video">
+				<a href="#">
+					<img class="feature-icon" src="assets/images/video.png" alt="video Design" />
+					<h3 class="feature-title">VIDEO PRODUCTION</h3>
+				</a>
+				
+			</li>
+		</ul>
+		
+	</section>
+	<article class="body-text container">
+		<h2>Design Services</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</article>
+
+	<section class="portfolio-samples">
+	  <div class="container">
+	    <h2>Portfolio</h2>
+	    <ul class="portfolio-list clearfix">
+		
+		  <li class="port-laptops"> <span class="caption"><a href="#">>Lorem ipsum dolor sit amet</a> <img class="sample-icon"src="assets/images/web-small.png" /></span></li>  
+	      <li class="port-acme"> <span class="caption"> <a href="#">Lorem ipsum dolor sit amet</a><img class="sample-icon" src="assets/images/graphic-small.png" /> </span> </li>
+	      <li class="port-demoreel"> <span class="caption"> <a href="#">Lorem ipsum dolor sit amet</a><img class="sample-icon" src="assets/images/video-small.png" /> </span> </li>
+	      <li class="port-logo"> <span class="caption"> <a href="#">Lorem ipsum dolor sit amet</a><img class="sample-icon" src="assets/images/graphic-small.png" /> </span> </li>
+	    </ul>
+	  </div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="col-one-third">
+				<h3>Form the Blog</h3>
+				<dl class="footer-list">
+					<dt>Lorem ipsum dolor sit</dt>
+					<dd>on March 10, 2014</dd>
+					<dt>Consectatur Adispiscing Elit</dt>
+					<dd>on March 8, 2014</dd>
+					<dt>Lorem ipsum dolor sit</dt>
+					<dd>on March 3, 2014</dd>
+				</dl>
+			</div>
+			<div class="col-one-third">
+				<h3>contact us</h3>
+				<address>
+					123 45th st<br>
+					podunk, tx, 77777 <br>
+					(55555)5555-555<br>
+					<a href="mailton:info@email.com">info@email.com</a>	
+				</address>
+			</div>
+			<div class="col-one-third registration">
+				<h3>Register for Updates</h3>
+				<form>
+					<input type="text" id="name" placeholder="Name">
+					<input type="text" id="email" placeholder="Email@address.com">
+					<button type="submit">SUBSCRIBE</button>
+				</form>
+			</div>
+			<div style="clear:both;"></div>
+		</div>
+		<span class="copyright">&copy;copyright 2022, My Portfolio Desgn</spian>
+	</footer>
+
+	<script>
+	$(function() {
+    $nav = $('.nav-list');
+    
+    $('.menu-icon').click(function() {
+      $nav.slideToggle();
+    });
+    
+    $(window).resize(function() {
+      if ($(window).width() >= 640) {
+        $nav.show();
+      } else {
+        $nav.hide();
+      }
+    });
+  });
+</script>
+</body>
+</html>

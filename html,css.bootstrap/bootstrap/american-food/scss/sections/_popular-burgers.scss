@@ -1,0 +1,71 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.pburger{
+margin-top: 53px;
+&--one{
+@include media-breakpoint-down(sm) {
+	margin-left:.1rem;
+	
+}
+	height:404px;
+	width:600px;
+
+	margin-left:1rem;
+	}
+
+	&--two{
+	@include media-breakpoint-down(sm) {
+	margin-left:.1rem;
+	margin-top:2.1rem;
+	
+}
+// lg //
+@media (min-width:992px){
+	margin-left:2rem;
+}
+	height:185px;
+	width:auto;
+	margin-left:3rem;
+
+	&-m{
+	@include media-breakpoint-down(sm) {
+	margin-left:.1rem;
+	
+}
+// md //
+@media (min-width:768px){
+	margin-left:3.0rem;
+
+	
+}
+// lg //
+@media (min-width:992px){
+	margin-top:2.1rem;
+	margin-left:2rem;
+}
+	margin-top:2.1rem;
+	margin-left:5rem;
+
+	height:185px;
+	width:auto;
+	}
+	
+	}
+}
+
+.size{
+@include media-breakpoint-down(sm) {
+	margin-left:-1rem;
+	
+}
+// md //
+@media (min-width:768px){
+	width:10rem;
+	height:10rem;
+}
+	margin-left:2rem;
+}
+
+
+

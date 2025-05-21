@@ -1,0 +1,11 @@
+@use '../custom' as *;
+@use '../components/_mixins' as *;
+
+.google-drive {
+	
+	&__logo {
+	
+padding-left:1rem;
+	}
+}
+

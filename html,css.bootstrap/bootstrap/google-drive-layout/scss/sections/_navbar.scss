@@ -1,0 +1,25 @@
+@use '../custom' as *;
+@use '../components/_mixins' as *;
+
+.menu{
+background-color:$white;
+	li{
+	padding: 0 0.1rem;
+	a{
+	color:$darkgrey !important;
+	text-transform: capitalize;
+	font-weight: 400;
+	
+	span{
+	font-weight: 600;
+	color:$black !important;
+	}
+	
+	}
+	}
+}
+nav{
+	.navbar-toggler{
+	background-color: #204abd !important;
+	}
+}
